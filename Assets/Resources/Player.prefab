@@ -217,6 +217,7 @@ MonoBehaviour:
   look: {fileID: -9112938409682776636}
   jump: {fileID: 9140159336680605837}
   crouch: {fileID: 5104014312477178874}
+  health: {fileID: 2882578223993842107}
   camera: {fileID: 482475645257034174}
 --- !u!114 &2278201837791813217
 MonoBehaviour:
@@ -288,7 +289,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75a98d521bc7cd245a8af6a04e550d6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
+  health: 100
   healthText: {fileID: 5919400145416015894}
 --- !u!1 &482475645257034174
 GameObject:

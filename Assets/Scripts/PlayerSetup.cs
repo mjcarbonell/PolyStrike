@@ -9,6 +9,7 @@ public class PlayerSetup : MonoBehaviour
    public Look look;
    public Jump jump;
    public Crouch crouch;
+   public Health health;
    public GameObject camera; 
    
 
@@ -18,10 +19,7 @@ public class PlayerSetup : MonoBehaviour
    public void IsLocalPlayer(){
       if (GetComponent<PhotonView>().IsMine)  // Ensure this only runs for the local player
       {
-         movement.enabled = true;
-         look.enabled = true;
-         jump.enabled = true;
-         crouch.enabled = true;
+         movement.enabled = true; look.enabled = true; jump.enabled = true; crouch.enabled = true; health.enabled = true; 
          camera.SetActive(true);
       }
       else
