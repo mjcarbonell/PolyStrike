@@ -15,7 +15,14 @@ public class Look : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-        charCamera = Camera.main.transform;
+        // charCamera = Camera.main.transform;
+        if (charCamera == null){
+            Camera cam = GetComponentInChildren<Camera>();
+            if (cam != null)
+            {
+                charCamera = cam.transform;
+            }
+        }
     }
 
     void Update()
