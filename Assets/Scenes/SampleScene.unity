@@ -981,6 +981,67 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -7012823298725719425, guid: 7d23e180d94b064428ed0ba4620e3940, type: 3}
+--- !u!1001 &1315064229
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: afded09178401fb42a22909f8c25e770, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 89.33455
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: afded09178401fb42a22909f8c25e770, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -107.472565
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: afded09178401fb42a22909f8c25e770, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -22.300043
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: afded09178401fb42a22909f8c25e770, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: afded09178401fb42a22909f8c25e770, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: afded09178401fb42a22909f8c25e770, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: afded09178401fb42a22909f8c25e770, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: afded09178401fb42a22909f8c25e770, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: afded09178401fb42a22909f8c25e770, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: afded09178401fb42a22909f8c25e770, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: afded09178401fb42a22909f8c25e770, type: 3}
+      propertyPath: m_Name
+      value: SWATidle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: afded09178401fb42a22909f8c25e770, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ca45276c554d7fb4ca6bc22d54bdff08, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: afded09178401fb42a22909f8c25e770, type: 3}
 --- !u!64 &1332137200
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2344,7 +2405,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ed9b1ba357055040aab9d80dd2c10f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 70420043142176639, guid: 487df44f9adfb134581a8b6b207f3770, type: 3}
+  player: {fileID: 5790977854457712661, guid: 2ba48f85ced65ec4ebe2e0dc4be46b43, type: 3}
   spawnPoint: {fileID: 1462664410}
   roomCam: {fileID: 2017266755}
 --- !u!4 &2019038950
@@ -2507,3 +2568,4 @@ SceneRoots:
   - {fileID: 1462664410}
   - {fileID: 1421483573}
   - {fileID: 2086781288}
+  - {fileID: 1315064229}
